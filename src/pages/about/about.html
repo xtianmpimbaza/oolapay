@@ -1,11 +1,32 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      About
+      Request Payment
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
+<ion-content>
+
+  <ion-list>
+
+    <ion-item>
+      <ion-label floating>Amount</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Mobile money number</ion-label>
+      <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <div padding>
+      <!--<button block>Withdraw</button>-->
+      <button ion-button block>Withdraw</button>
+      <!--<button ion-button block (click)="send()">Send email</button>-->
+    </div>
+  </ion-list>
+
+
 
 </ion-content>
