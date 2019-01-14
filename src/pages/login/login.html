@@ -1,0 +1,39 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Sign in</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content style="background-image: url('assets/imgs/crypto.jpg'); ">
+
+  <div padding id="cloud-layer">
+
+    <ion-row>
+      <ion-col col-6 offset-3>
+        <img src="assets/imgs/logotransparent.png" />
+      </ion-col>
+    </ion-row>
+
+
+    <h4 text-center margin-top>Insert your credentials</h4>
+
+    <ion-item>
+      <ion-label stacked>Username</ion-label>
+      <ion-input [(ngModel)]="username"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Password</ion-label>
+      <ion-input type="password" [(ngModel)]="password"></ion-input>
+    </ion-item>
+
+    <div text-center margin-top>
+
+      <button ion-button color="warning" (click)="signIn()">
+        SIGN IN
+      </button>
+    </div>
+  </div>
+</ion-content>

@@ -10,5 +10,11 @@ export class HomePage {
   constructor(public navCtrl: NavController) {
 
   }
+  // goToMyPage(page: string) {
+  //   this.navCtrl.push(page);
+  // }
+   goToMyPage() {
+    this.navCtrl.push('TxDetailsPage');
+  }
 
 }

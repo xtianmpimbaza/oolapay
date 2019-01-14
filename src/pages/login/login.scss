@@ -1,0 +1,113 @@
+page-login {
+  .ios, .md {
+
+    page-login {
+
+      .scroll-content {
+        background-color: #42c7ff;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+
+      img {
+        width: 50%;
+        height: auto;
+        margin: 0 auto;
+      }
+
+      #cloud-layer {
+        background-image: url(../assets/images/cloud-layer.png);
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+      }
+
+      ion-row {
+        align-items: center;
+        text-align: center;
+      }
+
+      ion-item {
+        border-radius: 30px !important;
+        padding-left: 10px !important;
+        margin-bottom: 10px;
+        background-color: #f6f6f6;
+        opacity: 0.7;
+        font-size: 0.9em;
+      }
+
+      ion-list {
+        margin: 0;
+      }
+
+      .login-button {
+        width: 100%;
+        border-radius: 30px;
+        font-size: 0.9em;
+        border: 1px solid #fff;
+        background-color: #39acdc;
+      }
+
+    }
+
+  }
+
+  //font-weight: 300;
+  //
+  //ion-slide {
+  //
+  //  //position: relative;
+  //  background-size: cover;
+  //
+  //  p {
+  //    position: absolute;
+  //    bottom: 0;
+  //    left: 0;
+  //    right: 0;
+  //    background-color: rgba(9,76,152, .85);
+  //    //background-color: rgba(212,5,15, .6);
+  //    color: #FFFFFF;
+  //    padding: 20px 20px 20px 20px;
+  //    //font-size: 2.7rem;
+  //    margin-bottom: 0;
+  //  }
+  //
+  //  img {
+  //    width: 50px;
+  //    height: 50px;
+  //    margin-top: -150px
+  //  }
+  //  .top_title{
+  //    top: 0;
+  //    color: white;
+  //    font-size: 2.7rem;
+  //    font-weight:bold;
+  //  }
+  //  .date_schedule{
+  //    color: white;
+  //    font-size: 2rem;
+  //    padding: 5px;
+  //    font-weight:bold;
+  //    border: 3px solid white;
+  //    margin-top: 1em;
+  //    margin-bottom: 1em;
+  //    width: 50%;
+  //    margin-left: 25%;
+  //  }
+  //
+  //}
+  //
+  //.swiper-pagination-bullet {
+  //  background: white;
+  //}
+  //.home-background {
+  //  //background: url("images/phone/home.png") no-repeat fixed center;
+  //  -webkit-background-size: cover;
+  //  -moz-background-size: cover;
+  //  background-size: cover;
+  //}
+
+
+
+}
